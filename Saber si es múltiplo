@@ -1,0 +1,23 @@
+//Aqui tengo un problema el cero es multiplo de todos
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int a = 0, b = 0;
+	cout << "ejm 33 es multiplo 11 why 11 por algo me da 33 sin\n\n";
+	cout << "Ingrese el valor de a: ";
+	cin >> a;
+	cout << "Ingrese el valor de b: ";
+	cin >> b;
+	
+	int c = a % b;
+	if (c == 0 ) {
+		cout << a << " es multiplo de " << b << endl;
+		cout << "si es multiplo";
+	}
+
+	else
+		cout << "no es multiplo";
+	return 0;
+}
