@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	cout << "Este codigo solo funciona para numeros de 5 digitos" << endl << endl;
+	int a;
+	cout << "Escriba: ";
+	cin >> a;
+
+	int c,d,q,w,e,r,t;
+	c = a / 10000;
+	cout << "Primera vuelta: " << c << endl;
+	d = a % 10000;
+	//cout << "Primera vuelta: " << d << endl;
+	c = d / 1000;
+	cout << "Segunda vuelta: " << c << endl;
+	d = a % 1000;
+
+	c = d / 100;
+	cout << "Tercera vuelta: " << c << endl;
+	d = a % 100;
+
+	c = d / 10;
+	cout << "Cuarta vuelta: " << c << endl;
+	d = a % 10;
+
+	c = d / 1;
+	cout << "Quinta vuelta: " << c << endl;
+	return 0;
+}
