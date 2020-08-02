@@ -1,0 +1,12 @@
+3.12 (Clase Cuenta) Cree una clase llamada Cuenta que podría ser utilizada por un banco para representar las
+cuentas bancarias de sus clientes. Incluya un miembro de datos de tipo int para representar el saldo de la cuenta.
+[Nota: en los siguientes capítulos, utilizaremos números que contienen puntos decimales (por ejemplo, 2.75), a los
+cuales se les conoce como valores de punto flotante, para representar montos en dólares]. Proporcione un constructor
+que reciba un saldo inicial y lo utilice para inicializar el dato miembro. El constructor debe validar el saldo
+inicial para asegurar que sea mayor o igual que 0. De no ser así, establezca el saldo en 0 y muestre un mensaje de
+error, indicando que el saldo inicial era inválido. Proporcione tres funciones miembro. La función miembro abonar
+debe agregar un monto al saldo actual. La función miembro cargar deberá retirar dinero del objeto Cuenta y
+asegurarse que el monto a cargar no exceda el saldo de Cuenta. Si lo hace, el saldo debe permanecer sin cambio y la
+función debe imprimir un mensaje que indique "El monto a cargar excede el saldo de la cuenta." La función
+miembro obtenerSaldo debe devolver el saldo actual. Cree un programa que cree dos objetos Cuenta y evalúe las
+funciones miembro de la clase Cuenta.
